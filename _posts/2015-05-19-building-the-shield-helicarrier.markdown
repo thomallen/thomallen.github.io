@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Building The SHIELD Helicarrier
 layout: post
 tags: [lego, helicarrier, shield]
