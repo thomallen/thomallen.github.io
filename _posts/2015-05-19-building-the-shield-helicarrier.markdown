@@ -3,7 +3,6 @@ published: true
 title: Building The SHIELD Helicarrier
 layout: post
 tags: [lego, helicarrier, shield]
-categories: [scifi]
 ---
 I would love to build this, but I have no idea where I would put it.
 
