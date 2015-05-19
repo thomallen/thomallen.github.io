@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Batman v Superman: Dawn of Justice Trailer
 layout: post
 tags: [batman, superman, dc, scifi]
