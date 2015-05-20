@@ -4,7 +4,7 @@ title: Home
 ---
 Thank you for stopping by my website. Below are the latest blog posts and links to projects I've worked on. You can also find me on <a href="http://twitter.com/thomallen" target="_blank">Twitter</a>, <a href="http://facebook.com/thomallen" target="_blank">Facebook</a>, and on <a href="http://github.com/thomallen" target="_blank">Github</a>.
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts | limit: 2 %}
     {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if currentyear != year %}
       {% unless forloop.first %}</ul>{% endunless %}
