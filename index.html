@@ -8,7 +8,9 @@ Thank you for stopping by my website. Below are the latest posts and links to pr
     {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if currentyear != year %}
       {% unless forloop.first %}</ul>{% endunless %}
-      <h1>{{ currentyear }}</h1>
+      {% if year != currentyear %}
+        <h1>{{ currentyear }}</h1>
+      {% endif %}
       <ul>
       {% capture year %}{{currentyear}}{% endcapture %} 
     {% endif %}
