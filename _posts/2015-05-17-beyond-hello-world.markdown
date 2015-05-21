@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Beyond Hello World
 layout: post
 ---
