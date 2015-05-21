@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Low Tech Google And Outlook Calendar Sync
 layout: post
 tags: [Outlook, Email, Google, Mail, Gmail]
